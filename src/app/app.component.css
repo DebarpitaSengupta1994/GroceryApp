@@ -1,0 +1,134 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the top navigation bar */
+.topnav {
+    overflow: hidden;
+    background-color: rgb(240, 205, 47);
+
+}
+
+.topnav-container {
+    padding: 5px;
+    background-color: rgb(240, 205, 47);
+}
+
+/* Style the topnav links */
+.topnav h3 {
+    float: left;
+    color: black;
+    text-align: center;
+
+}
+
+/* Change color on hover */
+.topnav button {
+    background-color: rgb(240, 205, 47);
+    color: black;
+    border: none;
+
+}
+
+
+
+/* Change color on hover */
+.topnav button:hover {
+    background-color: rgb(251, 228, 50);
+    color: black;
+}
+
+
+ input[type=text] {
+    padding: 9px;
+    margin-top: 8px;
+    font-size: 14px;
+    border: none;
+    width: 500px;
+}
+
+ 
+
+ 
+
+.topnav a {
+    /* float: left; */
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.customLink {
+    border: none;
+    background-color: rgb(240, 205, 47);
+    color: black;
+    float:right;
+}
+
+.customLink:hover {
+    border: none;
+    background-color: rgb(251, 228, 50);
+    color:black;
+    float:right;
+}
+.customLinkLogin{
+    border: none;
+    background-color: rgb(251, 1, 1);
+    color:white;
+    float:right;
+}
+
+@media screen and (max-width: 600px) {
+     .search-container {
+        float: none;
+    }
+
+    .topnav ,
+    .topnav input[type=text],
+    .search-container button {
+        float: none;
+        display: block;
+        text-align: left;
+        width: 100%;
+        margin: 0;
+        padding: 14px;
+    }
+
+    .topnav input[type=text] {
+        border: 1px solid #ccc;
+    }
+}
+
+
+
+/* Style the content */
+.content {
+    background-color: #ddd;
+   
+    height: 200px;
+    /* Should be removed. Only for demonstration */
+}
+.contentSearch{
+    background-image: url("../assets/Images/main.jpg");
+    background-size: cover;
+    height: 325px;
+    padding-top: 100px;
+    color:black;
+
+}
+.productCategory{
+    overflow: visible;
+    float: center;
+}
+/* Style the footer */
+.footer {
+    background-color: #f1f1f1;
+    padding: 10px;
+}
